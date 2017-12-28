@@ -1,12 +1,25 @@
 {
-  "name": "Seth",
+  "name": "seth",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "author": "pcbach",
-  "license": "MIT",
+  "description": "website for seth",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gengauss/SETHproject.git"
+  },
+  "author": "nqanh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gengauss/SETHproject/issues"
+  },
+  "homepage": "https://github.com/gengauss/SETHproject#readme",
   "dependencies": {
-    "body-parser": "^1.17.1",
-    "express": "^4.15.2"
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mongojs": "^2.4.1"
   }
 }
